@@ -22,3 +22,11 @@ Certifique-se de ter as seguintes ferramentas instaladas e configuradas:
 ```bash
 git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
 cd SEU_REPOSITORIO/backend
+
+
+### 2. Configurar o Banco de Dados (PostgreSQL via Docker)
+
+Execute o Docker Compose na pasta `backend` para subir o container do banco de dados. O `docker-compose.yml` irá criar o serviço PostgreSQL e o volume para persistência de dados.
+
+```bash
+docker-compose up -d
