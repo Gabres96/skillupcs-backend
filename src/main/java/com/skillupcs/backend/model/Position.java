@@ -1,5 +1,6 @@
 package com.skillupcs.backend.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,6 +21,7 @@ public class Position {
     private String positionRole;
 
     @ManyToOne
-    @JoinColumn(name = "map_id", nullable = false)
+    @JoinColumn(name = "map_id")
+    @JsonIgnore
     private Map map;
 }

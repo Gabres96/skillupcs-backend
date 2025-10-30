@@ -1,6 +1,15 @@
 spring:
   application:
     name: skillupcs-backend
+
+  # --- Configuração de Segurança Estática ---
+  # Define um usuário e senha fixos para Basic Auth em ambiente de desenvolvimento.
+  # Isso evita o erro 401 causado por senhas geradas aleatoriamente.
+  security:
+    user:
+      name: user
+      password: devpassword # SENHA FÁCIL PARA TESTES
+
   datasource:
     url: jdbc:postgresql://localhost:5432/skillupcs
     username: admin
