@@ -32,7 +32,9 @@ Em resumo, o SkillUpCS é uma plataforma de **treinamento inteligente para jogad
 | 🧰 Build Tool | Maven |
 | 🧠 IDE Recomendada | IntelliJ IDEA |
 
----### 🌀 **1. Clonar o Repositório**
+--- 
+
+### 🌀 **1. Clonar o Repositório**
 
 ```bash
 git clone https://github.com/SEU_USUARIO/skillupcs2.git
