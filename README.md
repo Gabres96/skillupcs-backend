@@ -1,4 +1,4 @@
-# 🗺️ SkillUp CS2 Backend
+# 🗺️ SkillUp CS2 Backend ( AINDA EM DESENVOLVIMENTO)
 
 Backend da aplicação SkillUp CS2, desenvolvido em **Spring Boot 3.x** (Java 21+) e utilizando **PostgreSQL** com Docker para gerenciamento de mapas e posições táticas.
 
